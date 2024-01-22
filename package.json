@@ -15,7 +15,6 @@
   },
   "repository": "github:jtsage/svg2cssBG",
   "main": "./lib/svg2cssbg_lib.js",
-  "bin": "./bin/svg2cssbg.js",
   "exports": {
     "require": "./lib/svg2cssbg_lib.js",
     "default": "./lib/svg2cssbg_lib.js"
@@ -27,7 +26,6 @@
     "eslint-plugin-unicorn": "^50.0.1"
   },
   "dependencies": {
-    "commander": "^11.1.0",
     "svgo": "^3.2.0"
   }
 }
