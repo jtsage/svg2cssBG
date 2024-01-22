@@ -1,0 +1,33 @@
+{
+  "name": "svg2cssbg",
+  "version": "0.0.9",
+  "description": "Simple SVG to CSS background-image generator",
+  "homepage": "https://github.com/jtsage/svg2cssBG#readme",
+  "keywords": [],
+  "author": {
+    "name": "FSG Modding",
+    "email": "jtsage+datebox@gmail.com",
+    "url": "https://www.fsgmodding.com/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtsage/svg2cssBG/issues/"
+  },
+  "repository": "github:jtsage/svg2cssBG",
+  "main": "./lib/svg2cssbg_lib.js",
+  "bin": "./bin/svg2cssbg.js",
+  "exports": {
+    "require": "./lib/svg2cssbg_lib.js",
+    "default": "./lib/svg2cssbg_lib.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/eslint-parser": "^7.23.3",
+    "eslint": "^8.56.0",
+    "eslint-plugin-unicorn": "^50.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "svgo": "^3.2.0"
+  }
+}
